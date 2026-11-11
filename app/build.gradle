@@ -1,0 +1,13 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.forddrive.launcher'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.forddrive.launcher'
+        minSdk 23
+        targetSdk 28
+        versionCode 10
+        versionName '10.0-lite'
+    }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+}
